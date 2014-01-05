@@ -2,8 +2,8 @@
   "name": "react",
   "description": "React, a JavaScript library for building user interfaces",
   "homepage": "https://github.com/dhl/meteor-react",
-  "author": "David Leung <david@davidslab.com> (http://davidslab.com)",
-  "version": "0.0.1",
-  "git": "https://github.com/dhl/meteor-react",
+  "author": "David Leung (http://davidslab.com)",
+  "version": "0.0.2",
+  "git": "https://github.com/dhl/meteor-react.git",
   "packages": {}
 }

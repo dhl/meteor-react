@@ -41,7 +41,22 @@ var Foo = React.createClass({
 });
 ```
 
-The object returned by the getMeteorState method is passed to a React component's this.setState() method.
+The state will be available as a property of `this.state.meteor`.
+
+For example, to access `bar` in the component `Foo` above, we can do:
+
+```javascript
+// foobar.jsx
+
+var Foo = React.createClass({
+    ...
+    render: function() {
+        var bar = this.state.meteor.bar;
+        return (<span>{bar}</span>);
+    }
+    ...
+});
+```
 
 Refer to the [Interactivity and Dynamic UIs](http://facebook.github.io/react/docs/interactivity-and-dynamic-uis.html) Guide for an explanation of how state works in React.
 

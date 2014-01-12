@@ -9,7 +9,7 @@ React's [add-ons](http://facebook.github.io/react/docs/addons.html) are availabl
 ## Quick Start
 
 ```shell
-mrt add meteor-react
+mrt add react
 ```
 
 ## Usage
